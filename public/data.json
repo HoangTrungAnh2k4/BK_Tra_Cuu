@@ -1,0 +1,1373 @@
+[
+    {
+        "question": "Giao thức ICMP KHÔNG thực hiện chức năng nào sau đây",
+        "answers": [
+            "Báo cáo lỗi khi một máy không thể truy cập được",
+            "Gửi yêu cầu truy vấn (request) và nhận về thông tin báo cáo trạng thái (status report) của một máy trạm",
+            "Gửi yêu cầu đến (request) và nhận trả lời phản hồi (echo reply) từ một máy trạm"
+        ],
+        "correct": "Gửi yêu cầu truy vấn (request) và nhận về thông tin báo cáo trạng thái (status report) của một máy trạm"
+    },
+    {
+        "question": "Router sử dụng giải thuật định tuyến dạng \"Distance Vector\" (DV) khác với router sử dụng giải thuật định tuyến dạng \"Link State\" (LS) ở điểm:",
+        "answers": [
+            "Router DV hiểu biết về tổng thể topology của toàn mạng",
+            "Đường đi tối ưu sẽ được router DV tính toán dựa trên vector khoảng cách được gởi đến từ các routers lân cận",
+            "Dùng giải thuật Shortest Path First (SPF) để xác định đường đi tối ưu",
+            "Router DV tính toán đường đi tối ưu (best route) từ các routers LS"
+        ],
+        "correct": "Đường đi tối ưu sẽ được router DV tính toán dựa trên vector khoảng cách được gởi đến từ các routers lân cận"
+    },
+    {
+        "question": "Mã hoá đối xứng có tính chất",
+        "answers": [
+            "Khoá mã hoá và khoá giải mã giống nhau",
+            "Sử dụng khoá khác nhau cho từng khối của dữ liệu",
+            "Khoá giải hoá được giữ bí mật, khoá mã hoá được công khai",
+            "Khoá mã hoá được giữ bí mật, khoá giải mã được công khai"
+        ],
+        "correct": "Khoá mã hoá và khoá giải mã giống nhau"
+    },
+    {
+        "question": "Sự khác biệt giữa giải thuật distance vector và link-state là",
+        "answers": [
+            "Link-state tính toán dựa trên một phần của mạng trong khi distance vector tính toán dựa trên trạng thái của toàn bộ mạng",
+            "Link-state tạo ra kết quả định tuyến có tính ổn định cao hơn và tin cậy hơn trên mạng có kích thước lớn so với distance vector",
+            "Link-state sử dụng nhiều tài nguyên về bộ nhớ và CPU để tính toán hơn giải thuật distance vector"
+        ],
+        "correct": "Link-state sử dụng nhiều tài nguyên về bộ nhớ và CPU để tính toán hơn giải thuật distance vector"
+    },
+    {
+        "question": "Địa chỉ IP \"129.11.145.50\" thuộc lớp IP nào dưới đây:",
+        "answers": [
+            "D",
+            "C",
+            "B",
+            "A"
+        ],
+        "correct": "B"
+    },
+    {
+        "question": "Cơ chế đường hầm trong IPSec thực hiện",
+        "answers": [
+            "Chỉ mã hoá các dữ liệu, không mã hoá các tiêu đề (header)",
+            "Sử dụng mã hoá bất đối xứng để mã hóa và giải mã dữ liệu",
+            "Sử dụng cùng một khoá cho hai đầu của kết nối đường hầm",
+            "Để tạo mạng cá nhân ảo (Virtual Private Network) trên mạng công cộng"
+        ],
+        "correct": "Để tạo mạng cá nhân ảo (Virtual Private Network) trên mạng công cộng"
+    },
+    {
+        "question": "Loại tường lửa có hoạt động chỉ kiểm tra phần thông tin tiêu đề (header) để quyết định gói tin được chấp nhận hay bị chặn được gọi là",
+        "answers": [
+            "Tường lửa hỗ trợ trạng thái (Stateful Firewall)",
+            "Tường lửa kiểm tra gói tin chuyên sâu (Deep Packet Inspection Firewall)",
+            "Tường lửa lọc gói tin (Packet Filtering Firewall)",
+            "Tường lửa proxy (Proxy Firewall)"
+        ],
+        "correct": "Tường lửa lọc gói tin (Packet Filtering Firewall)"
+    },
+    {
+        "question": "Chức năng của giao thức SMTP là",
+        "answers": [
+            "Để tải thư email từ máy chủ email về máy trạm",
+            "Để gửi thư email đến các máy chủ email khác",
+            "Để lưu trữ mail trên máy chủ mail",
+            "Để kiểm tra nội dung email có bị thay đổi hay không"
+        ],
+        "correct": "Để gửi thư email đến các máy chủ email khác"
+    },
+    {
+        "question": "Giao thức (protocol) trong mạng máy tính thực hiện công việc gì",
+        "answers": [
+            "Để cung cấp giao tiếp cho người dùng truy cập vào mạng máy tính",
+            "Để định nghĩa cấu trúc dữ liệu và các luật trong giao tiếp",
+            "Để quản lý luồng dữ liệu giữa các thiết bị"
+        ],
+        "correct": "Để định nghĩa cấu trúc dữ liệu và các luật trong giao tiếp"
+    },
+    {
+        "question": "Bước kết thúc kết nối trong TCP thực hiện",
+        "answers": [
+            "Huỷ bộ đệm bên người gửi (thiết lập kích thước buffer size về 0)",
+            "Sử dụng tín hiệu reset (RST) để đóng kết",
+            "Gửi gói tin bắt tay 3 bước (3 way handshake)",
+            "Gửi gói tin \"FIN\""
+        ],
+        "correct": "Gửi gói tin \"FIN\""
+    },
+    {
+        "question": " Sự khác nhau giữa truy vấn tên miền (DNS) đệ quy (recursive query) và lặp (iterative query) là",
+        "answers": [
+            "Truy vấn đệ quy trả về địa chỉ IP, truy vấn lặp chỉ trả về tên miền",
+            "Truy vấn đệ quy yêu cầu nhiều máy chủ DNS để trả lời, truy vấn lặp chỉ truy vấn một máy chủ DNS tại một thời điểm.",
+            " Truy vấn đệ quy được sử dụng bởi máy chủ được có thẩm quyền (authoritative servers) trong khi truy vấn lặp dụng bởi máy chủ không có thẩm quyền (non-authoritative server)"
+        ],
+        "correct": "Truy vấn đệ quy yêu cầu nhiều máy chủ DNS để trả lời, truy vấn lặp chỉ truy vấn một máy chủ DNS tại một thời điểm."
+    },
+    {
+        "question": "Cơ chế xử lý khi thiết bị Ethernet switch nhận được một gói tin với địa chỉ MAC không có trong bảng địa chỉ MAC",
+        "answers": [
+            "Gói tin được chuyển tới bộ định tuyến để xử lý việc chuyển tiếp",
+            "Gói tin được gửi đến tất cả các cổng (broadcast) trừ cổng vừa đến",
+            "Gói tin được chuyển đến hàng đợi để chờ đến khi có thông tin MAC tương ứng trong bảng địa chỉ MAC",
+            "Gói tin bị bỏ đi (drop)"
+        ],
+        "correct": "Gói tin được gửi đến tất cả các cổng (broadcast) trừ cổng vừa đến"
+    },
+    {
+        "question": "Cho tốc độ ánh sáng trong môi trường truyền dẫn là 2 x 10^8 m/s và khoảng cách giữa hai thiết bị là 1.000 km, chỉ số độ trễ lan truyền (propagation delay) là",
+        "answers": [
+            "5 ms",
+            "100 ms",
+            "50 ms",
+            "10 ms"
+        ],
+        "correct": "5 ms"
+    },
+    {
+        "question": "Router MPLS thực hiện xử lý nào khi gặp một gói tin với nhãn MPLS không biết",
+        "answers": [
+            "Router gửi một yêu cầu đến router trung gian trước đó để yêu cầu cập nhật nhãn",
+            "Router gửi một thông báo lỗi và bỏ (drop) gói tin",
+            "Router chuyển tiếp gói tin dựa trên địa chỉ IP đích đến"
+        ],
+        "correct": "Router gửi một thông báo lỗi và bỏ (drop) gói tin"
+    },
+    {
+        "question": "Trong giao thức TCP, cơ chế “fast retransmit” thực hiện",
+        "answers": [
+            "Gửi lại gói sau khi nhập 3 lần gói ACK trùng lặp",
+            "Bắt đầu với tốc độ chậm, sau đó tăng gấp đôi tốc độ khi gửi lại",
+            "Chờ đến hết timeout để gửi lại",
+            "Làm giảm tốc độ truyền vì phải truyền lại"
+        ],
+        "correct": "Gửi lại gói sau khi nhập 3 lần gói ACK trùng lặp"
+    },
+    {
+        "question": "Mạng sử dụng kết nối Bluetooth có đặc điểm",
+        "answers": [
+            "Kết nối một điểm master và nhiều điểm slave",
+            "Thiết kế hạ tầng tập trung centralized infrastructure",
+            "Tầm phủ sóng (coverage range) rộng trên 100m",
+            "Kết nối ngang hàng theo điểm tới điểm point-to-point"
+        ],
+        "correct": "Kết nối một điểm master và nhiều điểm slave"
+    },
+    {
+        "question": "Việc sử dụng VLAN trong hệ thống mạng KHÔNG  đem lại lợi ích nào",
+        "answers": [
+            "Mở rộng hạ tầng mạng vật lý do việc tăng số lượng các VLAN trong mạng con subnet ",
+            "Gia tăng khả năng bảo mật dựa trên việc phân chia một mạng con thành các mạng VLAN cô lập",
+            "Đơn giản hoá việc quản lý và dò tìm lỗi do kích thước nhỏ hơn của VLAN.",
+            "Giảm tắc nghẽn mạng bằng cách giới hạn lưu lượng broadcast trong VLAN"
+        ],
+        "correct": "Mở rộng hạ tầng mạng vật lý do việc tăng số lượng các VLAN trong mạng con subnet "
+    },
+    {
+        "question": " Trong một mạng có nhiều thiết bị, cơ chế multiplexing giúp quản lý lưu lượng truyền bằng cách",
+        "answers": [
+            "Cho phép nhiều ứng dụng trên cùng thiết bị dùng chung kết nối ",
+            "Điều chỉnh băng thông kết nối gia tăng cho từng thiết bị",
+            "Nén tất cả dữ liệu để giảm thời gian truyền",
+            "Chuyển các gói dữ liệu tới đúng thiết bị có địa chỉ MAC tương ứng"
+        ],
+        "correct": "Cho phép nhiều ứng dụng trên cùng thiết bị dùng chung kết nối "
+    },
+    {
+        "question": "Trong các mô hình sau, mô hình nào là mô hình mạng được dùng phổ biến hiện nay:",
+        "answers": [
+            "Peer- to- Peer",
+            "Remote Access",
+            "Terminal- Mainframe",
+            "Client- Server"
+        ],
+        "correct": "Peer- to- Peer"
+    },
+    {
+        "question": "Dịch vụ mạng DNS dùng để:",
+        "answers": [
+            "Cấp địa chỉ cho các máy trạm",
+            "Phân giải tên và địa chỉ",
+            "Truyền file và dữ liệu",
+            "Gửi thư điện tử"
+        ],
+        "correct": "Phân giải tên và địa chỉ"
+    },
+    {
+        "question": "Giao thức DHCP có thể cấp được các thông số sau cho máy trạm client:",
+        "answers": [
+            "IP Address",
+            "Subnet Mask",
+            "DNS Server",
+            "Default Gateway"
+        ],
+        "correct": "IP Address"
+    },
+    {
+        "question": "Một mạng con lớp C mượn 2 bit để chia Subnet thì Subnet Mask sẽ là:",
+        "answers": [
+            "255.255.224.0",
+            "255.255.255.192",
+            "255.255.255.240",
+            "255.255.255.128"
+        ],
+        "correct": "255.255.255.192"
+    },
+    {
+        "question": "Địa chỉ IPv6 gồm bao nhiêu bit?",
+        "answers": [
+            "32",
+            "48",
+            "64",
+            "128"
+        ],
+        "correct": "128"
+    },
+    {
+        "question": "Thiết bị mạng nào làm giảm bớt sự va chạm (collisions)?",
+        "answers": [
+            "Hub",
+            "NIC",
+            "Switch",
+            "Transceiver"
+        ],
+        "correct": "Switch"
+    },
+    {
+        "question": "Địa chỉ MAC là:",
+        "answers": [
+            "Địa chỉ lớp 3 được Router xử lý cho việc định tuyến",
+            "Địa chỉ lớp 4 được gắn với cổng dịch vụ",
+            "Có thể thay đổi bằng TCP/IP Properties của Windows",
+            "Địa chỉ lớp 2 được gắn cứng vào Card mạng"
+        ],
+        "correct": "Địa chỉ lớp 2 được gắn cứng vào Card mạng"
+    },
+    {
+        "question": "Trong số các Hệ điều hành sau, Hệ điều hành mạng là:",
+        "answers": [
+            "Windows 98",
+            "Windows 2003 Professional",
+            "Windows 2003 Server",
+            "Windows XP"
+        ],
+        "correct": "Windows 2003 Server"
+    },
+    {
+        "question": "Dịch vụ mạng SMTP dùng để:",
+        "answers": [
+            "Gửi thư điện tử",
+            "Nhận thư điện tử",
+            "Phân giải tên và địa chỉ",
+            "Cấp địa chỉ cho máy trạm"
+        ],
+        "correct": "Gửi thư điện tử"
+    },
+    {
+        "question": "Định tuyến tĩnh là loại định tuyến:",
+        "answers": [
+            "Dùng cho mạng nhỏ cấu trúc đơn giản",
+            "Nhà quản trị chỉ việc cấu hình giao thức định tuyến cho Router",
+            "Nhà quản trị phải cấu hình từng dòng lệnh cho các mạng đích cần thiết",
+            "Router có thể giúp lựa chọn đường đi ngắn nhất trên mạng"
+        ],
+        "correct": "Nhà quản trị phải cấu hình từng dòng lệnh cho các mạng đích cần thiết"
+    },
+    {
+        "question": "Trong số các cặp giao thức và cổng dịch vụ sau, cặp nào là đúng:",
+        "answers": [
+            "SMTP: TCP Port 21",
+            "Telnet: UDP Port 23",
+            "HTTP: TCP Port 80",
+            "TFTP: TCP Port 69"
+        ],
+        "correct": "HTTP: TCP Port 80"
+    },
+    {
+        "question": "Để phân giải địa chỉ IP thành địa chỉ MAC, sử dụng giao thức:",
+        "answers": [
+            "ARP",
+            "DHCP",
+            "RARP",
+            "ICMP"
+        ],
+        "correct": "ARP"
+    },
+    {
+        "question": "Khả năng định tuyến được thực hiện bởi thiết bị:",
+        "answers": [
+            "Switch",
+            "Hub",
+            "NIC",
+            "Router"
+        ],
+        "correct": "Router"
+    },
+    {
+        "question": "Các dịch vụ quay số tương tự (Dial-up) sử dụng thiết bị nào để chuyển đổi tín hiệu số sang tín hiệu tương tự?",
+        "answers": [
+            "Repeater",
+            "Modem",
+            "Router",
+            "NIC"
+        ],
+        "correct": "Modem"
+    },
+    {
+        "question": "Dịch vụ nào cho phép tham chiếu host bằng tên thay cho việc dùng địa chỉ IP khi duyệt Internet?",
+        "answers": [
+            "POTS",
+            "DNS",
+            "HTTP",
+            "FTP"
+        ],
+        "correct": "DNS"
+    },
+    {
+        "question": "Giao thức được sử dụng phổ biến trên Internet là:",
+        "answers": [
+            "Ethernet",
+            "TCP/IP",
+            "OSI",
+            "IEEE"
+        ],
+        "correct": "TCP/IP"
+    },
+    {
+        "question": "Hub là thiết bị hoạt động ở tầng nào của mô hình OSI:",
+        "answers": [
+            "Tầng Vật lý",
+            "Tầng Data Link",
+            "Tầng Transport",
+            "Tầng Network"
+        ],
+        "correct": "Tầng Vật lý"
+    },
+    {
+        "question": "Một Hub tốc độ 100Mbps có 12 cổng thì tốc độ của mỗi cổng sẽ là:",
+        "answers": [
+            "Tối đa 100Mbps khi chỉ có một máy tính cắm vào Hub",
+            "Tối đa 100Mbps khi có 12 máy tính cắm vào Hub",
+            "Tối thiểu 8.3Mbps khi có 12 máy tính cắm vào Hub",
+            "Tối thiểu 100Mbps khi chỉ có một máy tính cắm vào Hub"
+        ],
+        "correct": "Tối đa 100Mbps khi chỉ có một máy tính cắm vào Hub"
+    },
+    {
+        "question": "NIC là thiết bị hoạt động ở lớp nào của mô hình OSI:",
+        "answers": [
+            "Lớp 1",
+            "Lớp 2",
+            "Lớp 3",
+            "Lớp 4"
+        ],
+        "correct": "Lớp 1"
+    },
+    {
+        "question": "Switch là thiết bị hoạt động ở lớp nào của mô hình OSI:",
+        "answers": [
+            "Lớp 1",
+            "Lớp 2",
+            "Lớp 3",
+            "Lớp 4"
+        ],
+        "correct": "Lớp 2"
+    },
+    {
+        "question": "Địa chỉ nào sau đây là địa chỉ quảng bá của mạng 192.168.25.128/28:",
+        "answers": [
+            "192.168.25.255",
+            "192.168.25.141",
+            "192.168.25.180",
+            "192.168.25.143"
+        ],
+        "correct": "192.168.25.143"
+    },
+    {
+        "question": "Topo thường dùng hiện nay trong các mạng LAN:",
+        "answers": [
+            "Ethernet bus",
+            "Bus",
+            "Token Ring",
+            "Token bus"
+        ],
+        "correct": "Ethernet bus"
+    },
+    {
+        "question": "Để kết nối trực tiếp hai máy tính với nhau ta có thể dùng:",
+        "answers": [
+            "Cáp chéo (Cross- Cable)",
+            "Rollover Cable",
+            "Cáp thẳng (Straight Cable)",
+            "Không có loại nào"
+        ],
+        "correct": "Cáp chéo (Cross- Cable)"
+    },
+    {
+        "question": "Mô hình phân lớp OSI có bao nhiêu lớp:",
+        "answers": [
+            "7",
+            "4",
+            "5",
+            "2"
+        ],
+        "correct": "7"
+    },
+    {
+        "question": "Các đơn vị dữ liệu giao thức trong mô hình OSI được gọi là:",
+        "answers": [
+            "PDU (Protocol Data Unit)",
+            "Packet",
+            "CSU",
+            "Frame"
+        ],
+        "correct": "PDU (Protocol Data Unit)"
+    },
+    {
+        "question": "Thứ tự đóng gói dữ liệu khi truyền qua mô hình OSI:",
+        "answers": [
+            "Data, Packet, Segment, Bit, Frame",
+            "Data, Packet, Segment, Frame, Bit",
+            "Data, Segment, Packet, Frame, Bit",
+            "Data, Segment, Frame, Packet, Bit"
+        ],
+        "correct": "Data, Segment, Packet, Frame, Bit"
+    },
+    {
+        "question": "Nếu lấy 1 địa chỉ lớp B để chia Subnet với Netmask là 255.255.240.0 thì có bao nhiêu Subnets có thể sử dụng được (useable subnets)? 240 = 11110000:",
+        "answers": [
+            "2",
+            "6",
+            "16 hoặc 14",
+            "30"
+        ],
+        "correct": "16 hoặc 14"
+    },
+    {
+        "question": "Thiết bị mạng nào dùng để nối các mạng và kiểm soát được broadcast?",
+        "answers": [
+            "Hub",
+            "Bridge",
+            "Ethernet switch",
+            "Router"
+        ],
+        "correct": "Router"
+    },
+    {
+        "question": "Địa chỉ nào là địa chỉ broadcast của lớp 2?",
+        "answers": [
+            "111.111.111.111",
+            "255.255.255.255",
+            "AAAA.AAAA.AAAA",
+            "FFFF.FFFF.FFFF"
+        ],
+        "correct": "FFFF.FFFF.FFFF"
+    },
+    {
+        "question": "Địa chỉ được SWITCH sử dụng khi quyết định gửi data sang cổng (port) nào?",
+        "answers": [
+            "Source MAC address",
+            "Destination MAC address",
+            "Network address",
+            "Subnetwork address"
+        ],
+        "correct": "Destination MAC address"
+    },
+    {
+        "question": "Một mạng con lớp C mượn 5 bit để chia Subnet thì Subnet Mask sẽ là:",
+        "answers": [
+            "255.255.224.0",
+            "55.255.255.1",
+            "255.255.255.248",
+            "255.255.255.128"
+        ],
+        "correct": "255.255.255.248"
+    },
+    {
+        "question": "Thẻ giao tiếp mạng (NIC) thuộc lớp nào trong mô hình OSI?",
+        "answers": [
+            "Layer 2",
+            "Layer 3",
+            "Layer 4",
+            "Layer 1"
+        ],
+        "correct": "Layer 1"
+    },
+    {
+        "question": "Nếu 4 PCs kết nối với nhau thông qua HUB thì cần bao nhiêu địa chỉ IP cho 5 trang thiết bị mạng này?",
+        "answers": [
+            "1",
+            "2",
+            "4",
+            "5"
+        ],
+        "correct": "4"
+    },
+    {
+        "question": "Routers làm việc ở lớp nào trong mô hình OSI?",
+        "answers": [
+            "Layer 1",
+            "Layer 2",
+            "Layer 3",
+            "Layer 4"
+        ],
+        "correct": "Layer 3"
+    },
+    {
+        "question": "Độ dài tối đa cho phép khi sử dụng dây cáp mạng UTP là bao nhiêu mét?",
+        "answers": [
+            "100",
+            "185",
+            "200",
+            "500"
+        ],
+        "correct": "100"
+    },
+    {
+        "question": "Có bao nhiêu vùng va chạm (collision domains) trong mạng gồm 88 máy tính, 10 HUB và 2 REPEATER?",
+        "answers": [
+            "1",
+            "10",
+            "12",
+            "100"
+        ],
+        "correct": "1"
+    },
+    {
+        "question": "Vai trò của tầng vật lý trong mô hình OSI là:",
+        "answers": [
+            "Cung cấp các phương tiện điện, cơ",
+            "Cung cấp chức năng và thủ tục",
+            "Kích hoạt, duy trì và đình chỉ liên kết vật lý giữa các hệ thống",
+            "Cả a, b và c"
+        ],
+        "correct": "Cả a, b và c"
+    },
+    {
+        "question": "Trong mô hình TCP/IP thì giao thức IP nằm ở:",
+        "answers": [
+            "Tầng 1",
+            "Tầng 2",
+            "Tầng 3",
+            "Tầng 4"
+        ],
+        "correct": "Tầng 3"
+    },
+    {
+        "question": "Lớp nào thực hiện việc chuyển đổi cú pháp dữ liệu để đáp ứng yêu cầu truyền dữ liệu của các ứng dụng:",
+        "answers": [
+            "Transport",
+            "Session",
+            "Presentation",
+            "Application"
+        ],
+        "correct": "Presentation"
+    },
+    {
+        "question": "Trong mô hình mạng 7 tầng do ISO công bố, tầng nào làm nhiệm vụ truyền dữ liệu giữa hai điểm cuối, thực hiện kiểm soát lỗi/luồng, có thể thực hiện ghép kênh (multiplexing/demultiplexing), cắt/hợp dữ liệu:",
+        "answers": [
+            "Data link",
+            "Transport",
+            "Network",
+            "Session"
+        ],
+        "correct": "Data link"
+    },
+    {
+        "question": "Đơn vị đo thông lượng là:",
+        "answers": [
+            "Byte/s",
+            "Bit/s",
+            "Byte/phút",
+            "Bit/phút"
+        ],
+        "correct": "Bit/s"
+    },
+    {
+        "question": "Công nghệ mạng LAN nào được sử dụng rộng rãi nhất hiện nay?",
+        "answers": [
+            "Token Ring",
+            "Ethernet",
+            "ArcNet",
+            "FDDI"
+        ],
+        "correct": "Ethernet"
+    },
+    {
+        "question": "Phần nào trong địa chỉ IP được ROUTER sử dụng khi tìm đường đi?",
+        "answers": [
+            "FDDI",
+            "Network address",
+            "Router address",
+            "Host address"
+        ],
+        "correct": "Network address"
+    },
+    {
+        "question": "Một mạng con lớp A mượn 21 bit để chia Subnet thì Subnet Mask sẽ là:",
+        "answers": [
+            "255.255.224.0",
+            "255.255.192.0",
+            "255.255.248.0",
+            "255.255.255.248"
+        ],
+        "correct": "255.255.255.248"
+    },
+    {
+        "question": "Địa chỉ nào trong số những địa chỉ dưới đây là địa chỉ Broadcast của IP thuộc lớp C?",
+        "answers": [
+            "190.12.253.255",
+            "190.44.255.255",
+            "221.218.253.255",
+            "129.219.145.255"
+        ],
+        "correct": "221.218.253.255"
+    },
+    {
+        "question": "Số lượng bit nhiều nhất có thể mượn để chia Subnet của địa chỉ IP lớp C là?",
+        "answers": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "correct": "6"
+    },
+    {
+        "question": "Trong HEADER của IP PACKET có chứa:",
+        "answers": [
+            "Source address",
+            "Destination address",
+            "Source and Destination addresses",
+            "Không chứa địa chỉ nào cả"
+        ],
+        "correct": "Source and Destination addresses"
+    },
+    {
+        "question": "Lớp nào trong mô hình OSI đóng gói dữ liệu kèm theo IP HEADER?",
+        "answers": [
+            "Layer 1",
+            "Layer 2",
+            "Layer 3",
+            "Layer 4"
+        ],
+        "correct": "Layer 3"
+    },
+    {
+        "question": "Địa chỉ 139.219.255.255 là địa chỉ gì?",
+        "answers": [
+            "Broadcast lớp A",
+            "Broadcast lớp B",
+            "Broadcast lớp C",
+            "Host lớp B"
+        ],
+        "correct": "Broadcast lớp B"
+    },
+    {
+        "question": "Địa chỉ lớp nào cho phép mượn 15 bits để chia Subnet?",
+        "answers": [
+            "Lớp A",
+            "Lớp B",
+            "Lớp C",
+            "Không câu nào đúng"
+        ],
+        "correct": "Lớp A"
+    },
+    {
+        "question": "Giao thức nào dùng để tìm địa chỉ IP khi biết địa chỉ MAC của máy tính?",
+        "answers": [
+            "RARP",
+            "DHCP",
+            "TCP/IP",
+            "ARP"
+        ],
+        "correct": "RARP"
+    },
+    {
+        "question": "TCP làm việc ở lớp nào của mô hình OSI?",
+        "answers": [
+            "Layer 4",
+            "Layer 5",
+            "Layer 6",
+            "Layer 7"
+        ],
+        "correct": "Layer 4"
+    },
+    {
+        "question": "Giao thức nào dưới đây không đảm bảo dữ liệu gửi đi có tới máy nhận hoàn chỉnh hay không?",
+        "answers": [
+            "TCP",
+            "UDP",
+            "ARP",
+            "RARP"
+        ],
+        "correct": "UDP"
+    },
+    {
+        "question": "Độ dài của địa chỉ MAC là?",
+        "answers": [
+            "8 bits",
+            "24 bits",
+            "36 bits",
+            "48 bits"
+        ],
+        "correct": "48 bits"
+    },
+    {
+        "question": "Trang thiết bị mạng trung tâm dùng để kết nối các máy tính trong mạng hình sao (STAR) là:",
+        "answers": [
+            "Switch/Hub",
+            "Router",
+            "Repeater",
+            "NIC"
+        ],
+        "correct": "Switch/Hub"
+    },
+    {
+        "question": "Giao thức mạng nào dưới đây được sử dụng trong mạng cục bộ LAN:",
+        "answers": [
+            "TCP/IP",
+            "NETBIOS",
+            "IPX",
+            "Tất cả các câu trên"
+        ],
+        "correct": "Tất cả các câu trên"
+    },
+    {
+        "question": "Địa chỉ IP nào sau đây không được dùng để kết nối trực tiếp trong mạng Internet (không tồn tại trong mạng Internet):",
+        "answers": [
+            "126.0.0.1",
+            "192.168.98.20",
+            "201.134.1.2",
+            "Tất cả các câu trên"
+        ],
+        "correct": "192.168.98.20"
+    },
+    {
+        "question": "Địa chỉ IP nào sau đây thuộc lớp C:",
+        "answers": [
+            "190.184.254.20",
+            "195.148.21.10",
+            "225.198.20.10",
+            "Câu a. và b."
+        ],
+        "correct": "195.148.21.10"
+    },
+    {
+        "question": "Lệnh PING dùng để:",
+        "answers": [
+            "Kiểm tra các máy tính có đĩa cứng hay không",
+            "Kiểm tra các máy tính có hoạt động tốt hay không",
+            "Kiểm tra các máy tính trong mạng có thông không",
+            "Kiểm tra các máy tính có truy cập vào Internet không"
+        ],
+        "correct": "Kiểm tra các máy tính trong mạng có thông không"
+    },
+    {
+        "question": "Lệnh nào sau đây cho biết địa chỉ IP của máy tính:",
+        "answers": [
+            "IP",
+            "TCP_IP",
+            "FTP",
+            "IPCONFIG"
+        ],
+        "correct": "IPCONFIG"
+    },
+    {
+        "question": "Trong mạng máy tính dùng giao thức TCP/IP và đều dùng Subnet Mask là 255.255.255.0 thì cặp máy tính nào sau đây liên thông:",
+        "answers": [
+            "192.168.1.3 và 192.168.100.1",
+            "192.168.15.1 và 192.168.15.254",
+            "192.168.100.15 và 192.186.100.16",
+            "172.25.11.1 và 172.26.11.2"
+        ],
+        "correct": "192.168.15.1 và 192.168.15.254"
+    },
+    {
+        "question": "Trong mạng máy tính dùng giao thức TCP/IP và Subnet Mask là 255.255.255.224, hãy xác định địa chỉ broadcast của mạng nếu biết rằng một máy tính trong mạng có địa chỉ 192.168.1.1:",
+        "answers": [
+            "192.168.1.31",
+            "192.168.1.255",
+            "192.168.1.15",
+            "192.168.1.96"
+        ],
+        "correct": "192.168.1.31"
+    },
+    {
+        "question": "Trong mạng Ring, mỗi trạm của mạng được nối với vòng nhờ bộ phận:",
+        "answers": [
+            "Hub, Switch",
+            "Bridge, Router",
+            "Router",
+            "Repeater"
+        ],
+        "correct": "Repeater"
+    },
+    {
+        "question": "Topo mạng cục bộ nào mà tất cả các trạm phân chia chung một đường truyền chính:",
+        "answers": [
+            "Bus",
+            "Ring",
+            "Star",
+            "Hybrid"
+        ],
+        "correct": "Bus"
+    },
+    {
+        "question": "Byte đầu tiên của một địa chỉ IP có dạng: 11011011. Vậy nó thuộc lớp nào:",
+        "answers": [
+            "Lớp A",
+            "Lớp B",
+            "Lớp C",
+            "Lớp D"
+        ],
+        "correct": "Lớp C"
+    },
+    {
+        "question": "Byte đầu tiên của một địa chỉ IP có dạng: 01000111. Vậy nó thuộc lớp nào:",
+        "answers": [
+            "Lớp A",
+            "Lớp B",
+            "Lớp C",
+            "Lớp D"
+        ],
+        "correct": "Lớp A"
+    },
+    {
+        "question": "Byte đầu tiên của một địa chỉ IP có dạng 10110111. Vậy nó thuộc lớp nào:",
+        "answers": [
+            "Lớp A",
+            "Lớp B",
+            "Lớp C",
+            "Lớp D"
+        ],
+        "correct": "Lớp B"
+    },
+    {
+        "question": "Trong các lớp A, B, C, D, E thì lớp nào dùng cho các mạng có số trạm cực lớn:",
+        "answers": [
+            "Lớp A",
+            "Lớp B",
+            "Lớp C",
+            "Lớp D"
+        ],
+        "correct": "Lớp A"
+    },
+    {
+        "question": "Trong các giao thức giao vận Internet, giao thức nào có liên kết:",
+        "answers": [
+            "UDP",
+            "TCP",
+            "TCP và UDP",
+            "Không phải các đáp án trên"
+        ],
+        "correct": "TCP"
+    },
+    {
+        "question": "Số nhị phân 01111100 có giá trị thập phân là:",
+        "answers": [
+            "118",
+            "120",
+            "124",
+            "126"
+        ],
+        "correct": "124"
+    },
+    {
+        "question": "Nếu lấy 1 địa chỉ lớp B để chia Subnet với Netmask là 255.255.240.0 thì có bao nhiêu Subnets có thể sử dụng được?",
+        "answers": [
+            "2",
+            "6",
+            "14 hoặc 16",
+            "30"
+        ],
+        "correct": "14 hoặc 16"
+    },
+    {
+        "question": "Thiết bị mạng nào dùng để nối các mạng và kiểm soát được broadcast?",
+        "answers": [
+            "Hub",
+            "Bridge",
+            "Ethernet switch",
+            "Router"
+        ],
+        "correct": "Router"
+    },
+    {
+        "question": "Địa chỉ Subnet của một IP nằm từ bit thứ 17 tới bit thứ 23. Vậy địa chỉ IP của nó thuộc lớp nào:",
+        "answers": [
+            "Lớp A",
+            "Lớp B",
+            "Lớp C",
+            "Lớp D"
+        ],
+        "correct": "Lớp B"
+    },
+    {
+        "question": "Subnet Mask nào sau đây là hợp lệ:",
+        "answers": [
+            "0.255.255.255",
+            "0.0.0.255",
+            "255.0.0.255",
+            "255.255.255.0"
+        ],
+        "correct": "255.255.255.0"
+    },
+    {
+        "question": "Trong địa chỉ IP, có 5 lớp A, B, C, D, E. Lớp B là lớp có dãy địa chỉ:",
+        "answers": [
+            "192.0.0.0 tới 223.255.255.255",
+            "240.0.0.0 tới 255.255.255.255",
+            "128.0.0.0 tới 191.255.255.255",
+            "224.0.0.0 tới 239.255.255.255"
+        ],
+        "correct": "128.0.0.0 tới 191.255.255.255"
+    },
+    {
+        "question": "Trong địa chỉ IP, có 5 lớp tất cả : A, B, C, D, E. Lớp C là lớp có dãy địa chỉ:",
+        "answers": [
+            "224.0.0.0 tới 239.255.255.255",
+            "192.0.0.0 tới 223.255.255.255",
+            "128.0.0.0 tới 191.255.255.255",
+            "240.0.0.0 tới 255.255.255.255"
+        ],
+        "correct": "192.0.0.0 tới 223.255.255.255"
+    },
+    {
+        "question": "Lớp C được phép mượn tối đa bao nhiêu bit cho Subnet :",
+        "answers": [
+            "8",
+            "6",
+            "4",
+            "2"
+        ],
+        "correct": "6"
+    },
+    {
+        "question": "Byte đầu tiên của một địa chỉ IP có dạng: 00000010. Vậy nó thuộc lớp nào:",
+        "answers": [
+            "Lớp A",
+            "Lớp B",
+            "Lớp C",
+            "Lớp D"
+        ],
+        "correct": "Lớp A"
+    },
+    {
+        "question": "Một mạng lớp C cần chia thành 9 mạng con sử dụng Subnet Mask nào sau đây :",
+        "answers": [
+            "255.255.255.224",
+            "255.0.0.255",
+            "255.224.255.0",
+            "255.255.255.240"
+        ],
+        "correct": "255.255.255.240"
+    },
+    {
+        "question": "Lệnh nào dưới đây được dùng để bổ sung đường truyền trong bảng định tuyến với hệ điều hành Windows:",
+        "answers": [
+            "Nslookup",
+            "Route",
+            "Ipconfig",
+            "Tracert"
+        ],
+        "correct": "Route"
+    },
+    {
+        "question": "Tầng hai trong mô hình OSI tách luồng bit từ Tầng vật lý chuyển lên thành:",
+        "answers": [
+            "Segment",
+            "Frame",
+            "Packet",
+            "PSU"
+        ],
+        "correct": "Frame"
+    },
+    {
+        "question": "Phương pháp nào dùng để ngăn chặn các thâm nhập trái phép (theo danh sách truy nhập xác định trước) và có thể lọc bỏ các gói tin:",
+        "answers": [
+            "Encryption",
+            "Physical Protection",
+            "Firewall",
+            "Login/ password"
+        ],
+        "correct": "Firewall"
+    },
+    {
+        "question": "Cáp xoắn đôi có mấy kiểu (loại– Category):",
+        "answers": [
+            "6",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct": "6"
+    },
+    {
+        "question": "Để có một kiến trúc mạng chung tương thích giữa các mạng, năm 1984 tổ chức Tiêu chuẩn thế giới đã công bố một mô hình mạng, đó là:",
+        "answers": [
+            "ISO",
+            "DECNET",
+            "OSI",
+            "ARPANET"
+        ],
+        "correct": "OSI"
+    },
+    {
+        "question": "Dịch vụ nào cho phép người sử dụng từ một trạm làm việc của mình có thể đăng nhập vào một trạm ở xa qua mạng và có thể làm việc với hệ thống:",
+        "answers": [
+            "FTP",
+            "Email",
+            "Telnet",
+            "WWW"
+        ],
+        "correct": "Telnet"
+    },
+    {
+        "question": "Dịch vụ nào cho phép chuyển các file từ trạm này sang trạm khác, bất kể yếu tố địa lý hay hệ điều hành sử dụng:",
+        "answers": [
+            "FTP",
+            "Telnet",
+            "Email",
+            "WWW"
+        ],
+        "correct": "FTP"
+    },
+    {
+        "question": "Phương thức nào mà trong đó cả hai bên đều có thể đồng thời gửi dữ liệu đi:",
+        "answers": [
+            "Simplex",
+            "Half- duplex",
+            "Full- duplex",
+            "Phương thức khác"
+        ],
+        "correct": "Full- duplex"
+    },
+    {
+        "question": "Địa chỉ Subnet của một IP nằm từ bit thứ 9 tới bit thứ 23. Vậy địa chỉ IP của nó thuộc lớp nào:",
+        "answers": [
+            "Lớp A",
+            "Lớp C",
+            "Lớp B",
+            "Lớp D"
+        ],
+        "correct": "Lớp A"
+    },
+    {
+        "question": "Cáp sợi quang (Fiber Optic) thường được sử dụng để:",
+        "answers": [
+            "Thay thế cáp UTP vì nó rẻ hơn",
+            "Vượt qua giới hạn về khoảng cách",
+            "Kết nối PC đến các hộp nối trên tường",
+            "Liên kết các vị trí ở xa bằng việc sử dụng một kết nối WAN"
+        ],
+        "correct": "Liên kết các vị trí ở xa bằng việc sử dụng một kết nối WAN"
+    },
+    {
+        "question": "Điều gì là đúng đối với các giao thức dạng connectionless (không kết nối)?",
+        "answers": [
+            "Hoạt động chậm hơn các giao thức dạng connection-oriented",
+            "Các gói dữ liệu có phần header phức tạp hơn so với giao thức dạng connection-oriented",
+            "Cung cấp một dịch vụ phân phát dữ liệu không đáng tin cậy",
+            "Nút gửi phải truyền lại những dữ liệu đã bị mất trên đường truyền."
+        ],
+        "correct": "Cung cấp một dịch vụ phân phát dữ liệu không đáng tin cậy"
+    },
+    {
+        "question": "Trong một datagram IPv6, thành phần nào được xem như là bắt buộc cho những chức năng của tầng IP?",
+        "answers": [
+            "Extension Header",
+            "ICMPv6 Header",
+            "Base Header 40 bytes",
+            "Dữ liệu (data) được encapsulated từ tầng trên"
+        ],
+        "correct": "Base Header 40 bytes"
+    },
+    {
+        "question": "Sự khác biệt giữa cơ chế quản lý luồng (flow control) và cơ chế quản lý tắc nghẽn (congestion control) là",
+        "answers": [
+            "Cơ chế quản lý luồng điều chỉnh dựa vào thông tin băng thông mạng, trong khi cơ chế quản lý tắc nghẽn điều chỉnh dựa trên tính chính xác của dữ liệu được truyền",
+            "Cơ chế quản lý luồng thay đổi tốc độ truyền dữ liệu dựa trên kích thước cửa sổ bên nhận, trong khi cơ chế quản lý tắc nghẽn điều chỉnh trên kích thước cửa sổ người gửi",
+            "Cơ chế quản lý luồng thay đổi kích thước cửa sổ trong khi cơ chế quản lý tắc nghẽn thực hiện việc kiểm tra và xử lý việc thực hiện gửi lại và xác nhận dữ liệu gửi thành công",
+            "Cơ chế quản lý luồng thay đổi tốc độ gửi nhận bằng cách xin cấp phát bộ nhớ đệm bổ sung trong khi cơ chế quản lý tắc nghẽn điều chỉnh thu hồi bộ nhớ đệm dư thừa"
+        ],
+        "correct": "Cơ chế quản lý luồng thay đổi tốc độ truyền dữ liệu dựa trên kích thước cửa sổ bên nhận, trong khi cơ chế quản lý tắc nghẽn điều chỉnh trên kích thước cửa sổ người gửi"
+    },
+    {
+        "question": "Chọn phát biểu KHÔNG ĐÚNG về đặc điểm của giải thuật định tuyến distance vector",
+        "answers": [
+            "Sử dụng nhiều băng thông mạng để cập nhật bảng định tuyến",
+            "Không bị tình trạng dao động trạng thái (oscillation status hay ping-pong)",
+            "Chỉ thực hiện tính toán dựa trên các sự kiện có cập nhật thay đổi"
+        ],
+        "correct": "Sử dụng nhiều băng thông mạng để cập nhật bảng định tuyến"
+    },
+    {
+        "question": "Các máy tính sử dụng bộ giao thức TCP/IP và có Subnet Mask là: 255.255.255.0. Những cặp máy nào sau đây được cấp phát địa chỉ IP sẽ cùng trong một mạng LAN?",
+        "answers": [
+            "192.168.1.3 và 192.168.100.1",
+            "192.168.100.15 và 192.168.100.16",
+            "192.168.15.1 và 192.168.15.255",
+            "172.25.11.0 và 172.25.11.2"
+        ],
+        "correct": "192.168.100.15 và 192.168.100.16"
+    },
+    {
+        "question": "Cơ chế quản lý đa truy cập theo lượt (taking turn protocol) KHÔNG xảy ra hiện tượng nào sau đây",
+        "answers": [
+            "Có cơ chế chuyển lượt tuần tự qua các thiết bị",
+            "Có độ trễ trong truyền dữ liệu do phải chờ đến lượt",
+            "Có thời gian kênh truyền nhàn rỗi (idle time) khi không có dữ liệu cần truyền",
+            "Có xảy ra đụng độ khi có nhiều thiết bị muốn truy cập kênh truyền"
+        ],
+        "correct": "Có xảy ra đụng độ khi có nhiều thiết bị muốn truy cập kênh truyền"
+    },
+    {
+        "question": "Trong giao thức TCP, cơ chế “slow start” trong TCP thực hiện:",
+        "answers": [
+            "Bắt đầu gửi với kích thước cửa sổ lớn nhất có thế",
+            "Tăng kích thước cửa sổ cấp số nhân để nhanh chóng chiếm hết kênh truyền",
+            "Bắt đầu gửi với kích thước cửa số cố định nhỏ và duy trì để chống tắc nghẽn",
+            "Gửi số lượng gói tin nhỏ, chờ xác nhận ACK rồi tăng dần số lượng gói tin gửi"
+        ],
+        "correct": "Tăng kích thước cửa sổ cấp số nhân để nhanh chóng chiếm hết kênh truyền"
+    },
+    {
+        "question": "Việc kết hợp IDS và tường lửa (firewall) để nâng cao khả năng bảo mật cho hệ thống mạng do cơ chế nào sau đây",
+        "answers": [
+            "Tường lửa giúp chặn kết nối không cần thiết và tăng cường băng thông cho việc kết nối của các IDS",
+            "Tường lửa có thể dùng cảnh báo IDS để khoá các lưu lượng truy cập có hại theo thời gian thực",
+            "Tường lửa giúp mã hoá các lưu lượng truy cập trong khi IDS giúp phát hiện các phần mềm độc hại"
+        ],
+        "correct": "Tường lửa có thể dùng cảnh báo IDS để khoá các lưu lượng truy cập có hại theo thời gian thực"
+    },
+    {
+        "question": "Chọn phát biểu ĐÚNG về sự khác biệt chính (lớn nhất) giữa giao thức POP3 và IMAP",
+        "answers": [
+            "IMAP cho phép quản lý email từ phía máy chủ trong khi POP3 tải email về và xóa chúng khỏi máy chủ",
+            "IMAP tải file về máy trong khi POP3 không cho phép",
+            "IMAP không cho phép nhiều thiết bị truy xuất lấy email trong khi POP3 cho phép",
+            "IMAP yêu cầu bắt buộc có cơ chế mã hoá trong khi POP3 không yêu cầu"
+        ],
+        "correct": "IMAP cho phép quản lý email từ phía máy chủ trong khi POP3 tải email về và xóa chúng khỏi máy chủ"
+    },
+    {
+        "question": "Subnet Mask nào sau đây là hợp lệ?",
+        "answers": [
+            "0.255.255.255",
+            "255.255.128.0",
+            "255.255.255.127",
+            "0.0.0.255"
+        ],
+        "correct": "255.255.128.0"
+    },
+    {
+        "question": "Cho biết địa chỉ IPv6 nào là hợp lệ:",
+        "answers": [
+            "2001::1685:2123::1428:57ab",
+            "2001:99:ab:1:99:2:1:9",
+            "2001:1428:57ab:1685:2123:1428:57ab",
+            "2001:99:ab:1:99:2:1:9h"
+        ],
+        "correct": "2001:99:ab:1:99:2:1:9"
+    },
+    {
+        "question": "Chức năng của các trạm trung chuyển internet IXP (Inter exchange point)",
+        "answers": [
+            "Để phân tán nội dung trực tiếp đến những người dùng đầu cuối là khách hàng của các nhà cung cấp dịch vụ ISP",
+            "Để quản lý tập trung hệ thống tên miền và dải địa chỉ IP",
+            "Để cung cấp kết nối ngang hàng giữa các nhà cung cấp dịch vụ ISP và các lưu lượng chuyển tiếp (transit traffic) từ nhà cung cấp Tier 1",
+            "Để cung cấp kết nối tạo backbone ở mức cao nhất trên toàn thế giới nối trực tiếp các ISP"
+        ],
+        "correct": "Để cung cấp kết nối ngang hàng giữa các nhà cung cấp dịch vụ ISP và các lưu lượng chuyển tiếp (transit traffic) từ nhà cung cấp Tier 1"
+    },
+    {
+        "question": "Trong cơ chế chuyển mạch gói (packet switching), hàng đợi (queue) có chức năng",
+        "answers": [
+            "Phân các gói tin theo thứ tự ưu tiên ở các hàng đợi có độ ưu tiên khác nhau (priority queue)",
+            "Lưu trữ tạm các gói tin và chuyển tiếp đến cổng đích (store and forward)",
+            "Tải từng phần của gói dữ liệu cho đến khi đầy đủ rồi mới gửi đi (buffer)",
+            "Lưu bản sao của các gói dữ liệu vào bộ nhớ tạm để tăng tốc truy xuất."
+        ],
+        "correct": "Lưu trữ tạm các gói tin và chuyển tiếp đến cổng đích (store and forward)"
+    },
+    {
+        "question": "Thành phần có tác động nhiều nhất đến dung lượng khả năng truyền tải của kết nối không dây",
+        "answers": [
+            "Băng thông kênh truyền và tỷ lệ tín hiệu trên nhiễu (signal-to-noise ratio SNR)",
+            "Tần số dải tín hiệu kênh truyền",
+            "Đặc tính kỹ thuật của thiết bị ăng ten thu phát.",
+            "Năng lượng của tín hiệu truyền của trạm phát sóng"
+        ],
+        "correct": "Băng thông kênh truyền và tỷ lệ tín hiệu trên nhiễu (signal-to-noise ratio SNR)"
+    },
+    {
+        "question": "Trong ứng dụng web, cookie dùng để",
+        "answers": [
+            "Để đảm bảo việc mã hoá dữ liệu truyền",
+            "Để lưu trữ tập tin cục bộ của người dùng trên máy trạm (client)",
+            "Để lưu vết thông tin thiết lập và hành vi người dùng",
+            "Để chuyển dữ liệu giữa máy chủ (server) và các máy trạm (client)"
+        ],
+        "correct": "Để lưu vết thông tin thiết lập và hành vi người dùng"
+    },
+    {
+        "question": "Lớp trong mô hình TCP/IP đảm bảo dữ liệu được định tuyến giữa các mạng khác nhau là",
+        "answers": [
+            "Lớp vận chuyển",
+            "Lớp mạng",
+            "Lớp ứng dụng",
+            "Lớp liên kết"
+        ],
+        "correct": "Lớp mạng"
+    },
+    {
+        "question": "Giao thức OSPF sử dụng giải thuật:",
+        "answers": [
+            "Cả hai giải thuật Link state và Distance vector",
+            "Không phải Link state và Distance vector",
+            "Link state",
+            "Distance vector"
+        ],
+        "correct": "Link state"
+    },
+    {
+        "question": "Chức năng đóng gói (encapsulation) dữ liệu thực hiện công việc gì",
+        "answers": [
+            "Chia dữ liệu thành các gói nhỏ hơn để truyền nhận trên kênh truyền.",
+            "Để kết nối các đoạn dữ liệu đóng gói thành dữ liệu hoàn chỉnh ban đầu và chuyển lên cho ứng dụng.",
+            "Thêm các thông tin vào đầu và cuối (header và trailer) và chuyển xuống lớp dưới trong chồng giao thức (protocol stack)"
+        ],
+        "correct": "Thêm các thông tin vào đầu và cuối (header và trailer) và chuyển xuống lớp dưới trong chồng giao thức (protocol stack)"
+    },
+    {
+        "question": "Trong phân giải tên miền, vai trò của root là",
+        "answers": [
+            "Chứa dữ liệu DNS cho mọi tên miền (.com, .net .v.v…)",
+            "Cung cấp tính phân cấp cho tất cả tên miền (.com, .net .v.v…)",
+            "Là thành phần tiếp đầu ngữ (prefix www, mail .v.v...) của tất cả các tên miền (.com, .net .v.v…)",
+            "Ánh xạ tên tất cả tên miền (.com, .net .v.v…) sang địa chỉ IP"
+        ],
+        "correct": "Cung cấp tính phân cấp cho tất cả tên miền (.com, .net .v.v…)"
+    },
+    {
+        "question": "Cơ chế truyền một-tới-nhiều (one-to-many) giữa một nguồn và một nhóm xác định các đích được gọi là:",
+        "answers": [
+            "Anycast",
+            "Broadcast",
+            "Multicast",
+            "Unicast"
+        ],
+        "correct": "Multicast"
+    },
+    {
+        "question": "Địa chỉ IPv4 nào sau đây thuộc cùng một subnet với địa chỉ 192.168.1.28/27?",
+        "answers": [
+            "192.168.1.18",
+            "192.168.1.168",
+            "192.168.1.35",
+            "192.168.1.135"
+        ],
+        "correct": "192.168.1.18"
+    },
+    {
+        "question": "Mã trạng thái HTTP (HTTP status code) trả về thể hiện một yêu cầu được thực hiện thành công là",
+        "answers": [
+            "403 Forbidden",
+            "404 Not Found",
+            "200 OK",
+            "304 Not Modified"
+        ],
+        "correct": "200 OK"
+    },
+    {
+        "question": "Trong giao thức TCP, cơ chế quản lý luồng (flow control) sử dụng trường dữ liệu nào sau đây",
+        "answers": [
+            "cơ chế sửa lỗi (error correction)",
+            "gói tin xác nhận ACK",
+            "kích thước cửa sổ nhận (receive window)",
+            "số thứ tự (sequence number)"
+        ],
+        "correct": "kích thước cửa sổ nhận (receive window)"
+    },
+    {
+        "question": "Phương thức HTTP có thể dùng để tải lên một tập tin đến máy chủ HTTP là",
+        "answers": [
+            "DELETE",
+            "PATCH",
+            "POST",
+            "GET"
+        ],
+        "correct": "POST"
+    },
+    {
+        "question": "Trong hoạt động multiplexing, lý do mà UDP được xem là hiệu quả hơn TCP là",
+        "answers": [
+            "UDP cần ít tài nguyên hơn vì nó không cần thiết lập kết nối",
+            "UDP có cơ chế sửa lỗi",
+            "UDP sử dụng nhiều băng thông truyền hơn cho hoạt động multiplexing",
+            "UDP cung cấp khả năng đảm bảo việc gửi dữ liệu đến máy đích"
+        ],
+        "correct": "UDP cần ít tài nguyên hơn vì nó không cần thiết lập kết nối"
+    },
+    {
+        "question": "Cơ chế trap trong SNMP KHÔNG thực hiện việc",
+        "answers": [
+            "Tiết kiệm tài nguyên tránh các hoạt động không cần thiết làm ảnh hưởng hiệu suất đại diện (agent)",
+            "Máy chủ quản lý khởi tạo yêu cầu và nhận đáp ứng từ các đại diện (agent)",
+            "Cho phép các đại diện (agent) gửi các cập nhật không được yêu cầu (unrequested update) về các máy chủ quản lý."
+        ],
+        "correct": "Máy chủ quản lý khởi tạo yêu cầu và nhận đáp ứng từ các đại diện (agent)"
+    },
+    {
+        "question": "Trong TLS, cơ chế cung cấp tính bảo mật dữ liệu (data confidentiality) là",
+        "answers": [
+            "Sử dụng hàm băm để bảo mật nội dung dữ liệu",
+            "Sử dụng khóa bất đối xứng cho toàn bộ các dữ liệu được truyền",
+            "Sử dụng khoá công khai của máy chủ (server) để mã hoá dữ liệu",
+            "Sử dụng khoá đối xứng của phiên làm việc mã hoá dữ liệu"
+        ],
+        "correct": "Sử dụng khoá đối xứng của phiên làm việc mã hoá dữ liệu"
+    },
+    {
+        "question": "Chức năng của giao thức TCP là",
+        "answers": [
+            "cung cấp cơ chế chuyển khung (frame) trong một liên kết (link)",
+            "định tuyến (routing) giữa các thiết bị",
+            "để đảm bảo yêu cầu về thời gian đáp ứng",
+            "cung cấp cơ chế truyền dữ liệu tin cậy"
+        ],
+        "correct": "cung cấp cơ chế truyền dữ liệu tin cậy"
+    },
+    {
+        "question": "Trong cơ chế sử dụng ALOHA, khi có đụng độ trên kênh thiết bị muốn truy xuất kênh truyền đa truy cập thực hiện việc gì",
+        "answers": [
+            "Thiết bị chỉ gửi một lần và trả về kết quả báo có lỗi xảy ra.",
+            "Thiết bị chờ một thời gian ngẫu nhiên trước khi gửi lại",
+            "Thiết bị gửi \"tín hiệu đụng độ\" để thông báo đến các thiết bị khác nhằm tránh các đụng độ tiếp theo trong tương lai",
+            "Thiết bị gửi lại ngay lập tức ở cùng khe thời gian (timeslot)"
+        ],
+        "correct": "Thiết bị chờ một thời gian ngẫu nhiên trước khi gửi lại"
+    },
+    {
+        "question": "Mạng thành phần chịu trách nhiệm cho các kết nối ở khoảng cách xa và có lưu lượng dữ liệu lớn là:",
+        "answers": [
+            "Mạng truy cập (access network)",
+            "Mạng không dây (wireless network)",
+            "Mang lõi (core network)",
+            "Mạng biên (edge network)"
+        ],
+        "correct": "Mang lõi (core network)"
+    },
+    {
+        "question": "Việc xây dựng các tổ chức quản lý xác thực chữ ký công khai nhằm mục đích là",
+        "answers": [
+            "Để lưu trữ các khoá bí mật",
+            "Để xác thực tính chính xác của khoá công khai",
+            "Để mã hoá các nội dung văn bản",
+            "Để thực hiện ký điện tử trên văn bản"
+        ],
+        "correct": "Để xác thực tính chính xác của khoá công khai"
+    }
+]
